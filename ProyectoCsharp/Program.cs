@@ -1,0 +1,9 @@
+﻿namespace hansnone;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}

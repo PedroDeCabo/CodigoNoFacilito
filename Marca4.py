@@ -1,11 +1,3 @@
-def Saludar(Nombre):
-    print("Hola", Nombre, ",Encantado de conocerte.")
-def Despedir(Nombre):
-    print("Ahora, vete a tomar por culo:", Nombre, ".")
-Nombre = input("Digame su nombre: ")
-Saludar(Nombre)
-Despedir(Nombre)
-
 class Animal:
     def __init__(self, nombre, especie):
         self.nombre = nombre
@@ -22,3 +14,5 @@ class Animal:
 leon = Animal("León", "Felino")
 leon.saludar()
 leon.despedir()
+print(leon.nombre)
+print(leon.especie)

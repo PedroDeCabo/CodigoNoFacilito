@@ -32,9 +32,4 @@ print(CalcularVacacionesRestantes(Emp3.DiasVacaciones))
 empleados = [Emp0, Emp1, Emp2, Emp3]
 
 for empleado in empleados:
-    print(empleado.Nombre)
-    print(empleado.Fecha)
-    print(empleado.turno)
-    print(empleado.Sueldo)
-    print(empleado.DiasVacaciones)
-    print(CalcularVacacionesRestantes(empleado.DiasVacaciones))
+    print(empleado.Nombre, CalcularVacacionesRestantes(empleado.DiasVacaciones), end=" ")

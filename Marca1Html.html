@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    // Set the initial window name
+    document.title = "Cafes la Vaca Feliz";
+
+    // Change the window name when switching to another window
+    window.onblur = function() {
+        document.title = "Papi, estoy caliente, ven a verme!";
+    };
+
+    // Change the window name back when switching back to the original window
+    window.onfocus = function() {
+        document.title = "My Website";
+    };
+</script>
+</head>
+<body>
+<article>
+    <h1>Franco aparece en sol montando un patinete</h1>
+    <p>Paso lo  que nadie pudo preveer, españoles, Franco ha vuelto.</p>
+</article>
+</body>
+</html>
